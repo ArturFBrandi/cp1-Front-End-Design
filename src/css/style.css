@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #2f1b1b;
+    background: linear-gradient(180deg, #f7f1ea 0%, #efe3d5 100%);
+    line-height: 1.6;
+}
+
+.topo {
+    background: linear-gradient(135deg, #4a0f1c, #7b1f31);
+    color: #fdf6ee;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid #c69a4a;
+}
+
+.selo {
+    display: inline-block;
+    background-color: #c69a4a;
+    color: #3b1c12;
+    font-weight: bold;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    margin-bottom: 0.8rem;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 1.2rem;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 0.6rem;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fdf6ee;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid #e6c995;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu a:hover,
+.menu a.ativo {
+    background-color: #e6c995;
+    color: #4a0f1c;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: #fffaf4;
+    border-left: 6px solid #7b1f31;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 18px rgba(59, 28, 18, 0.1);
+}
+
+.destaque {
+    border-left-color: #c69a4a;
+}
+
+h1,
+h2 {
+    margin-bottom: 0.6rem;
+}
+
+ul {
+    margin-left: 1.2rem;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 0.8rem;
+    padding: 0.55rem 1rem;
+    background-color: #7b1f31;
+    color: #fdf6ee;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #5d1624;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2f1b1b;
+    color: #f3e6d6;
+    margin-top: 2rem;
+}
