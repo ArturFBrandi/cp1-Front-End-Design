@@ -98,6 +98,11 @@ ul {
     background-color: #5d1624;
 }
 
+video {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
