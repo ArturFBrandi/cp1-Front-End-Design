@@ -110,3 +110,19 @@ footer {
     color: #f3e6d6;
     margin-top: 2rem;
 }
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figure img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
