@@ -10,7 +10,7 @@ Organização dos arquivos e função de cada página:
 |--------|-----------|
 | `index.html` | Página inicial: proposta da vinheria, diferenciais e compromisso com qualidade. |
 | `src/pages/historia.html` | Nossa história: origem da empresa, tradição no atendimento, visão de futuro e vídeo institucional. |
-| `src/pages/produtos.html` | Catálogo por faixas (básicos, intermediários, premium), com imagens dos rótulos. |
+| `src/pages/produtos.html` | Catálogo por faixas (básicos, intermediários, premium), com imagens dos produtos. |
 | `src/pages/harmonizacao.html` | Harmonização: guia de combinações entre vinhos e tipos de pratos (inclui tabela de referência). |
 | `src/pages/contato.html` | Contato: canal para dúvidas e recomendações, com formulário (nome, e-mail, mensagem). |
 | `src/css/style.css` | Estilos globais (classes e IDs). |
@@ -40,7 +40,7 @@ cp1-Front-End-Design/
 
 - Artur Brandi (RM570258)
 - Victor Godoy  (RM571454)
-- Victor Heineken  
+- Victor Heineken (RM570782)
 
 ## Site publicado (GitHub Pages)
 
