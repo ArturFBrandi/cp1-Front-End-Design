@@ -126,3 +126,36 @@ figcaption {
     font-size: 14px;
     color: #555;
 }
+
+.tabela-container {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.tabela-harmonizacao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    background-color: #fffaf4;
+}
+
+.tabela-harmonizacao th,
+.tabela-harmonizacao td {
+    border: 1px solid #d8c2a8;
+    padding: 0.9rem;
+    text-align: left;
+}
+
+.tabela-harmonizacao th {
+    background-color: #7b1f31;
+    color: #fdf6ee;
+    font-weight: bold;
+}
+
+.tabela-harmonizacao tr:nth-child(even) {
+    background-color: #f7efe6;
+}
+
+.tabela-harmonizacao tr:hover {
+    background-color: #efe3d5;
+}
