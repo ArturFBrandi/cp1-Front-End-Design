@@ -11,8 +11,37 @@ body {
     line-height: 1.6;
 }
 
+.marca-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    display: block;
+    padding: 0.85rem 1rem;
+    background: transparent;
+    line-height: 0;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.marca-logo img {
+    display: block;
+    height: clamp(4.5rem, 10vw, 6.5rem);
+    width: auto;
+    max-width: min(320px, 72vw);
+    border: none;
+    border-radius: 50%; /* Makes the logo container circular */
+    overflow: hidden;   /* Ensures the image conforms to the circular shape */
+}
+
+.marca-logo:focus-visible {
+    outline: 2px solid #e6c995;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
 .topo {
-    background: linear-gradient(135deg, #4a0f1c, #7b1f31);
+    background: #4a0f1c;
     color: #fdf6ee;
     text-align: center;
     padding: 2rem 1rem;
