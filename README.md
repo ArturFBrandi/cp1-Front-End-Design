@@ -35,6 +35,65 @@ cp1-Front-End-Design/
 │       ├── historia.html
 │       └── produtos.html
 ```
+## Efeitos visuais
+O projeto utiliza recursos avançados de CSS para melhorar a experiência do usuário, incluindo pseudo-classes, pseudo-elementos e transformações com transições suaves.
+
+## Pseudo-elementos
+Foram utilizados pseudo-elementos para adicionar detalhes visuais sem alterar o HTML:
+
+.selo::before {
+    content: "🍷 ";
+}
+
+.selo::after {
+    content: " 🍷";
+}
+
+.card h2::after {
+    content: "";
+    display: block;
+    width: 3.2rem;
+    height: 3px;
+    background-color: #c69a4a;
+}
+Adiciona ícones decorativos automaticamente.
+Cria uma linha estilizada abaixo dos títulos.
+
+## Pseudo-classes
+As pseudo-classes foram usadas para criar interatividade:
+
+.menu a:not(.ativo):hover {
+    transform: translateY(-2px);
+}
+
+.botao:focus-visible {
+    outline: 2px solid #e6c995;
+}
+Links do menu se movimentam ao passar o mouse.
+Destaque visual ao navegar com teclado.
+
+## Transformações e transições 
+Foram aplicadas transformações CSS para criar animações suaves:
+
+.card:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+figure img:hover {
+    transform: rotate(3deg) scale(1.05);
+}
+Cards aumentam e sobem ao passar o mouse.
+Imagens giram levemente.
+
+as transições
+.card {
+  transition: transform 0.3s ease;
+ } 
+figure img {
+ transition: transform 0.3s ease; 
+}
+
+
 
 ## Integrantes
 
