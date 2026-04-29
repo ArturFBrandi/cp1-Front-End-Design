@@ -32,3 +32,22 @@
     outline: 2px solid #e6c995;
     outline-offset: 3px;
 }
+/* transformações */
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+figure img {
+    transition: transform 0.3s ease;
+}
+
+
+figure img:hover {
+    transform: rotate(3deg) scale(1.05);
+}
