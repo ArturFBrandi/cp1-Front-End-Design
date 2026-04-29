@@ -1,3 +1,4 @@
+@import url("./efeitos.css");
 * {
     margin: 0;
     padding: 0;
@@ -238,4 +239,3 @@ figcaption {
     color: #4a0f1c;
     font-weight: bold;
 }
-@import url("./efeitos.css");
