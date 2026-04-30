@@ -52,15 +52,6 @@ body {
     border-bottom: 4px solid #c69a4a;
 }
 
-@keyframes pop-in-out {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-}
-
 .menu {
     list-style: none;
     margin-top: 1.2rem;

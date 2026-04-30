@@ -57,6 +57,15 @@ figure img:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
 }
 
+@keyframes pop-in-out {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
 .selo {
     display: inline-block;
     background-color: #c69a4a;
