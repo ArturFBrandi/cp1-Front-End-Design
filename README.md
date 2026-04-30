@@ -40,9 +40,10 @@ cp1-Front-End-Design/
 ## Efeitos visuais
 O projeto utiliza recursos avançados de CSS para melhorar a experiência do usuário, incluindo pseudo-classes, pseudo-elementos e transformações com transições suaves.
 
-## Pseudo-elementos
+## Pseudo-elementos  
 Foram utilizados pseudo-elementos para adicionar detalhes visuais sem alterar o HTML:
 
+```css
 .selo::before {
     content: "🍷 ";
 }
@@ -58,12 +59,17 @@ Foram utilizados pseudo-elementos para adicionar detalhes visuais sem alterar o 
     height: 3px;
     background-color: #c69a4a;
 }
-Adiciona ícones decorativos automaticamente.
-Cria uma linha estilizada abaixo dos títulos.
+```
 
-## Pseudo-classes
+- Adiciona ícones decorativos automaticamente.  
+- Cria uma linha estilizada abaixo dos títulos.  
+
+---
+
+## Pseudo-classes  
 As pseudo-classes foram usadas para criar interatividade:
 
+```css
 .menu a:not(.ativo):hover {
     transform: translateY(-2px);
 }
@@ -71,15 +77,36 @@ As pseudo-classes foram usadas para criar interatividade:
 .botao:focus-visible {
     outline: 2px solid #e6c995;
 }
-Links do menu se movimentam ao passar o mouse.
-Destaque visual ao navegar com teclado.
+```
 
-## Animação
+- Links do menu se movimentam ao passar o mouse.  
+- Destaque visual ao navegar com teclado.  
 
+---
 
-## Transformações e transições 
+## Animação  
+Foi aplicada animação de "pop-in-out":
+
+```css
+.selo {
+    display: inline-block;
+    background-color: #c69a4a;
+    color: #3b1c12;
+    font-weight: bold;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    margin-bottom: 0.8rem;
+    animation: pop-in-out 1.5s ease-in-out infinite;
+}
+```
+
+---
+
+## Transformações e transições  
+
 Foram aplicadas transformações CSS para criar animações suaves:
 
+```css
 .card:hover {
     transform: scale(1.05) translateY(-5px);
 }
@@ -87,16 +114,22 @@ Foram aplicadas transformações CSS para criar animações suaves:
 figure img:hover {
     transform: rotate(3deg) scale(1.05);
 }
-Cards aumentam e sobem ao passar o mouse.
-Imagens giram levemente.
+```
 
-as transições
+- Cards aumentam e sobem ao passar o mouse.  
+- Imagens giram levemente.  
+
+### Transições
+
+```css
 .card {
-  transition: transform 0.3s ease;
- } 
-figure img {
- transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
+
+figure img {
+    transition: transform 0.3s ease;
+}
+```
 
 ## Integrantes
 
