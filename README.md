@@ -14,6 +14,7 @@ Organização dos arquivos e função de cada página:
 | `src/pages/harmonizacao.html` | Harmonização: guia de combinações entre vinhos e tipos de pratos (inclui tabela de referência). |
 | `src/pages/contato.html` | Contato: canal para dúvidas e recomendações, com formulário (nome, e-mail, mensagem). |
 | `src/css/style.css` | Estilos globais (classes e IDs). |
+| `src/css/efeitos.css` | Efeitos globais (pseudo elementos, classes, transições e animações). |
 | `src/assets/imgs/` | Imagens utilizadas nas páginas. |
 | `src/assets/vids/` | Vídeo das instalações da vinheria. |
 
@@ -29,6 +30,7 @@ cp1-Front-End-Design/
 │   │   └── vids/
 │   ├── css/
 │   │   └── style.css
+│   │   └── efeitos.css
 │   └── pages/
 │       ├── contato.html
 │       ├── harmonizacao.html
@@ -72,6 +74,9 @@ As pseudo-classes foram usadas para criar interatividade:
 Links do menu se movimentam ao passar o mouse.
 Destaque visual ao navegar com teclado.
 
+## Animação
+
+
 ## Transformações e transições 
 Foram aplicadas transformações CSS para criar animações suaves:
 
@@ -92,8 +97,6 @@ as transições
 figure img {
  transition: transform 0.3s ease; 
 }
-
-
 
 ## Integrantes
 
